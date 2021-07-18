@@ -1,0 +1,148 @@
+@import url('../others/font/IndieFlower-Regular.ttf');
+@import url('../others/font/ArefRuqaa-Regular.ttf');
+.hero{
+    background: linear-gradient(rgba(107, 196, 255, 0.658),rgba(255, 223, 118, 0.377)), url('../image/image2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero .hero-foot {
+    padding-right: 50px;
+}
+.hero .hero-foot a{
+    color: rgba(255, 255, 255, 0.74);
+    font-family: 'ArefRuqaa';
+}
+.hero .hero-foot  :hover{
+    color: rgba(0, 100, 250, 0.658);
+}
+.hero .hero-body{
+    background: url('../image/image3.png');
+    background-position: center;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+.content .section-light{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content .section-light img{
+border-radius: 11px;
+margin-left: 10px;
+box-shadow: 0 5px 20px rgba(9, 17, 54, 0.3);
+}
+
+.content .section-light .text strong{
+    margin-left: 40px;
+    font-family: 'Indie Flower', cursive;
+}
+.content .section-light .text .main{
+    margin-left: 20px;
+    font-family: 'Indie Flower';
+}
+.content .section-light h4{
+    margin-bottom: 0px;
+}
+.content .section-light progress{
+    margin-left: -1px;
+    height: 10%;
+}
+.content .section-title{
+    text-transform: uppercase;
+    font-family: 'ArefRuqaa';
+}
+
+.content .section-dark{
+    background-color: #d1d1d149;
+    margin: 0px;
+}
+.content .section-dark.my-work {
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+.content .section-dark.my-work .work-item {
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+  }
+  .content .section-dark.my-work .work-item:hover{
+    -webkit-transform: scale(1.055) translateY(-2px);
+    transform: scale(1.055) translateY(-2px);
+    -webkit-box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
+    box-shadow: 0 2px 25px 0 rgba(30, 30, 30, 0.1);
+  }
+  .copyright{
+    margin-top: 0px;
+      background: #ffffff;
+      font-size: small;
+      font-family: 'Indie Flower', cursive;
+  }
+
+.copyright .container .icon :hover{
+    color: blue;
+}  
+
+/* Contacts */
+.contacts{
+    /*padding: 60px 2% 120px;*/
+    padding: 20px;
+    
+}
+.contacts .element-title .contact-center{
+    text-align: center;
+}
+
+.wrapper-contacts{
+	padding-top: 40px;
+}
+
+.contact_form #contact-form{
+	padding-top: 50px;
+}
+
+.contact_form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.contact_form i{
+    font-size: 40px;
+}
+
+
+.form-control {
+	border-radius: 0;
+	height: 44px;
+	box-shadow: 0 12px 19px rgba(255, 255, 255, 0.1) inset, 0 1px 7px rgba(0, 0, 0, 0.2);
+}
+
+textarea.form-control {
+    height: 102px;
+}
+
+.contact_form input[type="submit"] {
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 44px;
+	width: 100%;
+	box-shadow: 0 12px 19px rgba(255, 255, 255, 0.1) inset, 0 1px 7px rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+
+.contact_form input[type="submit"]:hover {
+	background: transparent;
+}
+.contact_form {
+  width: 90%;
+}
+.wrapper-contacts-icons .col-xs-4{
+  width: 100%;
+}
+.fh5co-contact{
+    padding: 50px;
+  }
